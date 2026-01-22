@@ -14,11 +14,14 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <!-- ✅ LOGO CENTRALIZADA PERFEITAMENTE -->
         <ImageView
             android:id="@+id/imgPoster"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
             android:scaleType="centerCrop"
+            android:adjustViewBounds="false"
             android:src="@mipmap/ic_launcher"/>
 
         <!-- ÍCONE DOWNLOAD MAIOR E VISÍVEL -->
